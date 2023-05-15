@@ -3,7 +3,7 @@ const schema = mongoose.Schema;
 
 const TodoSchema = new schema({
     // write your schema here
-    text: {
+    title: {
         type: String,
         required: true
     },
